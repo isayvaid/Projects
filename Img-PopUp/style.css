@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html ,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#center {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background: rgb(144, 174, 230);
+
+}
+.imgdiv {
+    position: absolute;
+    pointer-events: none;
+     /* Prevent the div from interfering with mouse events */
+    width: 140%;
+     height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.imgdiv img {
+    opacity: 1; 
+    transition: opacity 0.3s ease-in-out;
+    height: 10%;
+    width: 10%;
+    object-fit: cover;
+    transform: translateY(100%);
+   
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    padding: 10px , 16px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.3rem ;
+}
+
+input {
+
+    margin-bottom: 1rem;
+    font-size: 1 rem;
+    width: 20rem;
+    height: 2.5rem;
+}
+
+.start-game:disabled {
+    cursor: not-allowed;
+}
