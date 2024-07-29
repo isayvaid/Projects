@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container{
+   position: relative;
+   /* width: 100%;
+   min-width: 700px; */
+   background: #fff;
+   border-radius: 5px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.Pass{
+
+   width: 250px;
+   height: 40px;
+   padding: 10px 20px;
+   margin: 4px 2px;
+   transition: 0.8s ease;
+   position: relative;
+}
+input{
+    outline: none;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 10px 20px;
+
+}
+.eye-container {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #eye-icon {
+    font-size: 20px;
+    color: #777;
+    transition: 0.2s ease;
+  }
+  
+  #eye-icon:hover {
+    color: rgb(10, 10, 165);
+    cursor: pointer;
+  }
+  
+  

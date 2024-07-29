@@ -1,0 +1,31 @@
+
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+a{
+    background-color: rgb(33, 228, 19);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid ;
+    padding: 0.98rem 5rem;
+    font-size: small;
+    
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border-top: 15px solid rgb(95, 237, 241);
+    border-bottom: 15px solid yellow;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    
+}
